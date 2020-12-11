@@ -42,12 +42,12 @@ void loop()
   if(digitalRead(Button_one) == 1)
   {
     tone(buzzer,note_C,100);
-    digitalWrite(10, HIGH);
+    digitalWrite(10, HIGH); // LED turn on
   }
   if(digitalRead(Button_two) == 1)
   {
     tone(buzzer,note_D,100);
-    digitalWrite(10, LOW);
+    digitalWrite(10, LOW); // LED turn off
   }
   if(digitalRead(Button_three) == 1)
   {
